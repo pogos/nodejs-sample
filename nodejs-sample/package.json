@@ -13,6 +13,12 @@
     "body-parser": "~1.0.0",
     "debug": "~0.7.4",
     "jade": "~1.3.0",
-    "pg": "*"
+    "pg": "*",
+    "supertest": "0.7.0",
+    "mocha": "1.11.0"
+  },
+  "scripts": {
+    "test" : "mocha",
+    "start": "app.js"
   }
 }
